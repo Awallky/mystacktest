@@ -134,6 +134,7 @@ public class MyStackTest {
 	      assertEquals( str, "20");
 	   }
 
+/*
 	@Test
 	public void runAllTests()
            {
@@ -153,5 +154,6 @@ public class MyStackTest {
 		}
 		
            }
+*/
 //*/
 }
