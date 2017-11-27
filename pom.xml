@@ -30,8 +30,7 @@
     <dependency>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>testInProgress-client</artifactId>
-        <version>1.0</version>
-	<scope>provided</scope>
+        <version>1.5-SNAPSHOT</version>
     </dependency>
     
    <!---
