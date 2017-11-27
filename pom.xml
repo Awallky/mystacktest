@@ -39,7 +39,7 @@
         <artifactId>testInProgress-client</artifactId>
         <version>1.5</version>
 	<scope>system</scope>
-	<systemPath>/home/amwa262/Desktop/mystacktest/resources/testInProgress-client-SNAPSHOT-1.5.jar</systemPath>
+	<systemPath>/home/amwa262/Desktop/mystacktest/resources/testInProgress-client-1.5-SNAPSHOT.jar</systemPath>
     </dependency>
    
   </dependencies>
