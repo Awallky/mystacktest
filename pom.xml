@@ -39,7 +39,7 @@
         <artifactId>testInProgress-client</artifactId>
         <version>1.5</version>
 	<scope>system</scope>
-	<systemPath>${basedir}/testInProgress-client-1.5-SNAPSHOT.jar</systemPath>
+	<systemPath>/home/amwa262/.m2/repository/org/jenkins-ci/plugins/testInProgress-client/1.5/testInProgress-client-1.5.jar</systemPath>
     </dependency>
    
   </dependencies>
