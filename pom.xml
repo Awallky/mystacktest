@@ -1,10 +1,10 @@
-<project>
+<project> 
   <modelVersion>4.0.0</modelVersion>
   <groupId>parent</groupId>
-  <artifactId>sandbox_src</artifactId>
+  <artifactId>mystacktest</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
-  <name>sandbox_src</name>
+  <name>mystacktest</name>
  
   <repositories>
     <repository>
@@ -26,11 +26,21 @@
       <version>1.3</version>
       <scope>compile</scope>
     </dependency>
+    
     <dependency>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>testInProgress-client</artifactId>
         <version>1.0</version>
+	<scope>provided</scope>
     </dependency>
+    
+   <!---
+    <dependency>	
+        <groupId>mystacktest</groupId>
+        <artifactId>testInProgress-client</artifactId>
+        <version>1.5</version>
+    </dependency>
+    -->
   </dependencies>
 
   <build>
