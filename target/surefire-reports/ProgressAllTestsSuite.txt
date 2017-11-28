@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: ProgressAllTestsSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec - in ProgressAllTestsSuite
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.073 sec <<< FAILURE! - in ProgressAllTestsSuite
+ProgressAllTestsSuite  Time elapsed: 0.072 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: org/json/JSONObject
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jenkinsci.testinprogress.messagesender.MessageSender.testRunStarted(MessageSender.java:27)
+	at org.jenkinsci.testinprogress.messagesender.MessageSender.testRunStarted(MessageSender.java:35)
+	at org.jenkinsci.testinprogress.JUnit4ProgressRunListener.testRunStarted(JUnit4ProgressRunListener.java:43)
+	at org.jenkinsci.testinprogress.runner.ProgressSuite.fireTestRunStarted(ProgressSuite.java:63)
+	at org.jenkinsci.testinprogress.runner.ProgressSuite.run(ProgressSuite.java:44)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+
