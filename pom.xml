@@ -1,4 +1,4 @@
-<project >
+<project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>parent</groupId>
   <artifactId>mystacktest</artifactId>
@@ -38,8 +38,9 @@
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>testInProgress-client</artifactId>
         <version>1.5</version>
-	<scope>system</scope>
+<!---	<scope>system</scope>
 	<systemPath>${basedir}/resources/testInProgress-client-1.5.jar</systemPath>
+-->
     </dependency>
    
   </dependencies>
