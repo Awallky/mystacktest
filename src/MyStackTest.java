@@ -1,6 +1,6 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
+//import java.util.concurrent.TImeUnit; // sleep
 import org.junit.Test;
 
 public class MyStackTest {
@@ -17,10 +17,18 @@ public class MyStackTest {
 	@Test 
 	public void testPush()
 	   {
+	      int sum;
 	      MyStack<String> stack = new MyStack<String>();
 	      stack.push ("hello");
 	      stack.push ("world");
-	      assertEquals (stack.peek(), "world");     	      
+	      assertEquals (stack.peek(), "world");
+//	      for(int i = 0; i < 200000000; i++){
+		try{
+			Thread.sleep(50000); // 50 s
+		}
+		catch(Exception e){
+		
+		}
 	   }
 
 	// Test 1
